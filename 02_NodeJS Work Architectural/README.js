@@ -9,7 +9,7 @@
  *      high-performance applications.
  *      
  *?   Content Course [2]
- **      1- Understanding NodeJS Architecture //![Artical]
+ **      1- Understanding NodeJS Architecture
  **      2- Asynchronous Operations in NodeJS
  **      3- Libuv and Thread Pool
  **      4- Modules in NodeJS
