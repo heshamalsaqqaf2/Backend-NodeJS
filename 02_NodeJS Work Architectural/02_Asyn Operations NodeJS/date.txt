@@ -1,0 +1,3 @@
+I/O operations are tasks that require interaction with external devices or systems, such as reading
+and writing files or making network requests. These operations are handled asynchronously by
+NodeJS, which manages them after the synchronous code has finished executing. Since
