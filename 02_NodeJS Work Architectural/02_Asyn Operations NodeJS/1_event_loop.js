@@ -1,8 +1,8 @@
 /** 
- * @Event_Loop
+ * @Event_Loop Is The Template Of An Asynchronous System
  * 
- * There is a big debate and some misunderstanding when it come to JavaScript is it synchronous or asynchronous? 
- * Let’s start by defining the terms:
+ *  There is a big debate and some misunderstanding when it come to JavaScript is it synchronous or asynchronous? 
+ *  Let’s start by defining the terms:
  **  Synchronous: 
  *      Tasks are performed one after another, and each operation must be finished before the next one starts. 
  *      Due to this, it can lead to idle waiting periods and inefficient use of time and resources.
@@ -78,6 +78,7 @@
  * @summary
  *    Each then adds a new microtask
  *    Long tasks in the Call Stack prevent Event Loop from working
+ *?   Event Loop => is the template of an asynchronous system
  * 
 */
 
