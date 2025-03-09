@@ -9,8 +9,14 @@
  *  queue. This differs from the stack data structure which operates on the LIFO (Last In, First Out)
  *  principle, where elements are both inserted and removed from the end of the stack.
  * 
- *  There are 5 queues that get checked by the event loop in every iteration of the loop: timer, I/O,
- *  check, close, and microtask.We will explore and discuss each of these in the following modules. 
+ *  There are 5 queues that get checked by the event loop in every iteration of the loop: 
+ *      1- timer
+ *      2- I/O
+ *      3- check 
+ *      4- close
+ *      5- microtask
+ *  
+ *  We will explore and discuss each of these in the following modules. 
 */
 
 
