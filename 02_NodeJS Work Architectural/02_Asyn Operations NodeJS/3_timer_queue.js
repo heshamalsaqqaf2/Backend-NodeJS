@@ -13,14 +13,12 @@
  *  manage time-related tasks efficiently without impeding the execution of other parts of the application.
  * 
 */
-
+'use strict';
 
 console.log('Start');
-
 setTimeout(() => {
     console.log('Timer Callback (Event Queue)');
 }, 0);
-
 console.log('End');
 
 // Output:

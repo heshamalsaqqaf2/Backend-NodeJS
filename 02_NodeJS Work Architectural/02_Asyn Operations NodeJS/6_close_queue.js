@@ -22,14 +22,14 @@
 'use strict';
 
 // TODO: ====================== Stream close ======================
-// const fs = require('fs');
+const fs = require('fs');
 
-// const readableStream = fs.createReadStream('./date.txt');
-// readableStream.close();
+const readableStream = fs.createReadStream('./date.txt');
+readableStream.close();
 
-// readableStream.on('close', () => {
-//     console.log('This is from the readableStream close event callback');
-// });
+readableStream.on('close', () => {
+    console.log('This is from the readableStream close event callback');
+});
 
 // TODO: ====================== Shutting down an HTTP server ======================
 const http = require('http');
