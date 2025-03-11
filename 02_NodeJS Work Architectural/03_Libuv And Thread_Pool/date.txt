@@ -1,0 +1,4 @@
+When JavaScript's single main thread encounters an asynchronous task, it delegates this task to libuv.
+Libuv then handles the task using either native async mechanisms or the thread pool.
+The default thread pool has 4 threads, meaning it can handle up to 4 asynchronous operations concurrently.
+If a fifth operation is initiated, it will have to wait for one of the existing threads to become available.
