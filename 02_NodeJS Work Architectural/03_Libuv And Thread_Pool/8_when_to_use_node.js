@@ -1,5 +1,5 @@
 /**
- * @Thread_Pool
+ * @When_To_Use_NodeJS
  *  Now that we know how Node works and handles sync and async operations, we can begin to
  *  consider the ideal use cases for NodeJS. Think about scenarios where tasks involve a lot of
  *  waiting, like reading from a database or making API requests.
