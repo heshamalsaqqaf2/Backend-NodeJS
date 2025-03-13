@@ -14,3 +14,7 @@ function greet(name) {
 
 // TODO: =============== ES Exports Methods ===============
 export { greet };
+
+// TODO: =============== Module Local Parameters ===============
+// exports.name = "Hesham";
+// console.log(module.exports.name);
