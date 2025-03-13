@@ -13,8 +13,11 @@
  *        A local parameter pointing to the module.exports object. Within the module, we can
  *        set properties of exports the same way we set properties of module.exports. For example:
  * 
- *?     exports.name = "Hesham";
- *?     console.log(module.exports.name);
+ *!   - CommonJS Modules
+ *          exports.name = "Hesham";
+ *
+ *?   - Es Modules
+ *          export const name = "Hesham";
  * 
  **  __filename:
  *       A string representing the full path to the module file.
@@ -27,11 +30,24 @@
 
 'use strict';
 
-// TODO: Using CommonJS Modules
+//? Named Export => Property
+export const name = "Hesham1";
+console.log(name);
+
+//? Default Export
+const name2 = "Hesham2";
+export default name2;
+console.log(name2);
+
+//! commonJS.cjs
+// exports.name = "Hesham";
+// console.log(module.exports.name); // "Hesham"
+
+// TODO: ================ Using CommonJS Modules ================
 // console.log('CommonJS:', __filename); //? Full path of the current file
 // console.log('CommonJS:', __dirname);  //? Full path to the current folder
 
-// TODO: Using ES Modules
+// TODO: ================ Using ES Modules ================
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 
