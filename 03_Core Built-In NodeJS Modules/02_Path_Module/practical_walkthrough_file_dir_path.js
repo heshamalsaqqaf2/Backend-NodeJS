@@ -35,9 +35,8 @@ console.log('Format:', path.format({
 console.log('Format2:', path.format(path.parse(__filename)));
 
 console.log('================= Join ========================');
-console.log('Join:', path.join(__dirname, 'app.js'));
-console.log('Join:', path.join("/home", "user", "projects/../../", "documents"));
 console.log('Join:', path.join('MyDocuments', 'project', 'index.js'));
+console.log('Join:', path.join("/home", "user", "projects/../../", "documents"));
 
 console.log('================= Resolve ========================');
 console.log('Resolve:', path.resolve("MyDocuments", "project", "index.js"));
