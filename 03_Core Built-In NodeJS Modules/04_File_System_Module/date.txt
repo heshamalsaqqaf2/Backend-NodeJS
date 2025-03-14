@@ -1,0 +1,2 @@
+This give us access to all the properties and methods provided by the fs module.
+Let’s explore them and understand how they work.
