@@ -53,4 +53,5 @@
  *   which is more rigid and complex, REST is simpler and uses standard HTTP methods. GraphQL, on
  *   the other hand, allows clients to request specific data, which can be more flexible but also more
  *   complex than REST.
+ * 
 */
