@@ -9,7 +9,7 @@
  *   allows you to parse and manipulate URLs to extract relevant information.
 */
 
-const url = require('url');
+const url = require('node:url');
 let urlPath = new URL('https://example.com:8000/path?name=alice');
 
 console.log(urlPath.hostname);
