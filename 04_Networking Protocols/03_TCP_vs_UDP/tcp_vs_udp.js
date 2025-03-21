@@ -1,11 +1,11 @@
 /** 
- *? @description
+ ** @description
  *!  TCP
  *    TCP (Transmission Control Protocol) is a connection-oriented protocol that ensures data is
  *    transmitted reliably. It establishes a connection between the sender and receiver before any data
  *    is transferred and guarantees that all packets arrive in order and without errors.
  *    This makes TCP ideal for applications where data integrity is essential, such as web servers and databases.
- *    For instance, a NodeJS server handling a large number of client requests relies on TCP
+ *?    For instance, a NodeJS server handling a large number of client requests relies on TCP
  *    to ensure that each request is accurately received and processed in the correct sequence.
  * 
  *!  UDP
