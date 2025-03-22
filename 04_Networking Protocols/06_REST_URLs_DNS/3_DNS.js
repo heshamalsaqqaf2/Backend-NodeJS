@@ -12,7 +12,7 @@
 
 const dns = require('node:dns');
 
-dns.lookup('example.com', (err, address, family) => {
+dns.lookup('nodejs.org', (err, address, family) => {
     if (err) throw new Error(err);
 
     console.log('IP Address:', address);
